@@ -1,7 +1,7 @@
 var http = require('http');
 
-http.createServer(onRequest_a).listen(8081);
-http.createServer(onRequest_b).listen(8082);
+http.createServer(onRequest_a).listen(8081,'0.0.0.0');
+http.createServer(onRequest_b).listen(8082,'0.0.0.0');
 
 console.log("------------------------");
 console.log("server listening on 8081");
