@@ -1,0 +1,14 @@
+{
+	"name": "DockerTestPorts",
+	"version": "0.0.1",
+	"description": "A nodejs app for testing open ports on Docker on Bluemix",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+	},
+	"repository": {},
+	"engines": {
+		"node": "0.12.x"
+	} 
+}
